@@ -1,0 +1,16 @@
+
+public class TestaCondicional2 {
+	
+	public static void main(String[] args) {
+		String ibag = "new ibag";
+		System.out.println("Testando condicionais"+ ibag);
+		
+		int idade = 16;
+		int quantidadePessoa = 4;
+		
+		// condicionais
+		if (idade >= 16 || quantidadePessoas >= 2) {
+			System.out.println("Seja bem vindo")
+		}
+	}
+}

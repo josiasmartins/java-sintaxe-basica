@@ -1,0 +1,10 @@
+
+public class TestaCaracteres {
+	
+	public static void main(String[] arg) {
+		// char: variável que trabalha com caracteres. 
+		// Guarda somente uma letra... também usa as aspa simples ('')
+		char letra = 'a';
+		System.out.println(letra);
+	}
+}

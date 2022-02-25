@@ -1,0 +1,14 @@
+
+public class TestaPontoFlutuante {
+	
+	public static void main(String[] args) {
+		
+		// temos dois pontos fluantes no java. O mais usado é double
+		// double: variáveis do tipo inteiro
+		double salario;
+		salario = 1250.70;
+		System.out.println("My salary is: "+salario);
+		
+		double idadde = 37;
+	}
+}

@@ -1,0 +1,10 @@
+
+public class TestaConversao {
+	
+	public static void main(String[] args) {
+		double salario = 1270.50;
+		// variável inteiro - int
+		// (int): casting do tipo int. Ele vai transformar esse int 
+		int valor = (int) salario;
+	}
+}

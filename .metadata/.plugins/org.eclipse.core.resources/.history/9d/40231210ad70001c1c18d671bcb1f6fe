@@ -1,0 +1,25 @@
+
+public class TestaVariaveis {
+
+	// main(): função principal
+	public static void main(String[] args) {
+		// println(): método que impreme algo no console e pula uma linha
+		System.out.println("Helo new test");
+		
+		// int: inteiro
+		int idade;
+		idade = 32;
+		System.out.println(idade);
+		
+		idade = 30 + 10;
+		System.out.println(idade);
+		// primeiro, ele faz multiplicação depois a soma
+		idade = (7 * 5) + 2;
+		
+		System.out.println(idade);
+		
+		// concatenação
+		System.out.println("a idade é: "+idade+", parabéns");
+	}
+	
+}

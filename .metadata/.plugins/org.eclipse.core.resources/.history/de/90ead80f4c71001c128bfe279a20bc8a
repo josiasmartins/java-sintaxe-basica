@@ -1,0 +1,28 @@
+
+public class TestaIr {
+
+	public static void main(String[] args) {
+		System.out.println("Imposto de Renda (IR)");
+		
+		// valor
+		double valor1 = 2000.0;
+		double valor2 = 3100.50;
+		double valor3 = 4100.50;
+		
+		// porcentgem
+		double aliquota;
+		
+		// porcentagem
+		double total;
+		
+		if (valor1 >= 1900.0 && valor1 <= 2800.0) {
+			aliquota = 7.5;
+			total = valor1 / 7.5;
+			System.out.println("R$ "+total);
+		} else if (valor2 >= 2800.01 && valor1 <= 3751.0) {
+			aliquota = 7.5;
+			total = valor2 / aliquota;
+			System.out.println("R$ "+total);
+		}
+	}
+}
